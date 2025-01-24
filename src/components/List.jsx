@@ -69,7 +69,7 @@ function List({success}) {
           </table>
         
       ) : (
-        <h3 className="my-5 text-center text-light">
+        <h3 className="my-5 text-center text-dark">
           No Movies Added Yet !!
         </h3>
       )}
