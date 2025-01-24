@@ -17,7 +17,7 @@ function App() {
         </a>
       </nav>
 
-      <div className="container-fluid" style={{backgroundColor:'#e6dda3',minWidth:'100vh'}}>
+      <div className="container-fluid" style={{backgroundColor:'#e6dda3',minHeight:'100vh'.minWidth:'100vh'}}>
         <Add val={setSuccess}/>
         <List success={success}/>
       </div>
